@@ -1,0 +1,6 @@
+// SPDX-License-Identifier: GPL-2.0
+
+#include "longcheer/common/longcheer-sdm660-base.dtsi"
+#include "longcheer/common/longcheer-sdm636.dtsi"
+#include "longcheer/common/longcheer-erm-haptics.dtsi"
+#include "longcheer/whyred/whyred-base.dtsi"
