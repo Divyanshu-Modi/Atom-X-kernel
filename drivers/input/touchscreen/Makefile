@@ -99,12 +99,6 @@ obj-$(CONFIG_TOUCHSCREEN_COLIBRI_VF50)	+= colibri-vf50-ts.o
 obj-$(CONFIG_TOUCHSCREEN_ROHM_BU21023)	+= rohm_bu21023.o
 obj-$(CONFIG_TOUCHSCREEN_ST)		+= st/
 
-obj-$(CONFIG_MACH_LONGCHEER)	+= lct_tp_fm_info.o
-obj-$(CONFIG_MACH_LONGCHEER)	+= lct_ctp_selftest.o
-obj-$(CONFIG_MACH_LONGCHEER)	+= lct_ctp_upgrade.o
-obj-$(CONFIG_MACH_LONGCHEER)	+= lct_if_ctp_upgrade.o
-obj-$(CONFIG_MACH_XIAOMI_WHYRED)	+= lct_tp_gesture.o
-
 obj-$(CONFIG_TOUCHSCREEN_NVT_A) 	+= nvt_touch_a/
 obj-$(CONFIG_TOUCHSCREEN_NVT_E7S) 	+= nvt_touch_e7s/
 obj-$(CONFIG_TOUCHSCREEN_NVT_D2S) 	+= nvt_touch_d2s/
