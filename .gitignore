@@ -121,3 +121,12 @@ android/configs/android-*.cfg
 #Ignoring Android.bp link file
 #
 Android.bp
+
+# Misc files & folders
+/out
+/tulip
+/whyred
+/wayne
+/lavender
+/jasway
+Allrounder.sh
