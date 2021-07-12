@@ -23,7 +23,7 @@ LDFLAGS_vmlinux		+= -Bsymbolic -z notext \
 			$(call ld-option, --no-apply-dynamic-relocs)
 			
 # Pass -pie for lld and -shared for other linkers to minimize Image size.
-ifeq ($(CONFIG_LD_IS_LLD),y)
+ifeq ($(ld-name),lld)
 LDFLAGS_vmlinux		+= -pie
 else
 LDFLAGS_vmlinux		+= -shared
